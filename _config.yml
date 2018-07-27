@@ -1,25 +1,27 @@
-favicon: null
 name: vinzant.me
-opengraph:
-  image: null
-  type: null
-  appId: null
+analytics: {}
+purpose: []
+github: true
+cta:
+  bucket: null
+  version: null
+  domain: null
+author: {}
 collections:
   - index:
       path: /
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-purpose: []
+    permalink:
+      path: '/:title/'
+content: []
+layout_spectrum: 0.4317043
 color:
-  saturation: 0.8007003148086369
-  brandStrength: 1
   lightness: 0.9200913712847978
   brandColors:
     - '#FCFDFF'
@@ -27,14 +29,10 @@ color:
     - '#F53121'
     - '#FE6E63'
     - '#749AA7'
+  saturation: 0.8007003148086369
+  brandStrength: 1
   rhythmicContrast: 0.2593726846389472
+content_rating:
+  adult: false
 typography_spectrum: 0.4266917
-layout_spectrum: 0.4317043
-cta:
-  bucket: null
-  version: null
-  domain: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
+opengraph: {}
